@@ -55,7 +55,7 @@ app.use((err, req, res, next) => {
 
 // Connect to MongoDB and start server
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/hospitalapppointment';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://gandhirajj2023aiml_db_user:x2tO6OG5gWhyt9vp@cluster0.fpevdso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 const startServer = async () => {
   try {
